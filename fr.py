@@ -38,7 +38,7 @@ while cap.isOpened():
             ih, iw, _ = frame.shape
             x, y, w, h = int(bboxC.xmin * iw), int(bboxC.ymin * ih), int(bboxC.width * iw), int(bboxC.height * ih)
 
-            # Draw a smaller rectangle for hand recognition with nothing inside
+            # Draw a   smaller rectangle for hand recognition with nothing inside
             rect_size = 50  # Adjust the size of the rectangle
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
             

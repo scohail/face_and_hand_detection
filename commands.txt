@@ -1,0 +1,7 @@
+git init
+git branch -M main
+git remote add origin git@github.com:scohail/face_and_hand_detection.git
+
+git add -A
+git commit -m "Initial commit"
+git push -u origin main
